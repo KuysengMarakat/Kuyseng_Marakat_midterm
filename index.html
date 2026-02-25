@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PulsePoint CIS</title>
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">PulsePoint CIS</h1>
+                <p class="tagline">Clinical Information System</p>
+            </div>
+        </header>
+    <nav class="top-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Nurse Page</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#help">Help</a></li>
+            </ul>
+     </nav>
+        < class="main-content">
+            <section id="login-section" class="login-section">
+            <div class="login-container">
+                <h2 class="section-title">User Login</h2>
+                <p class="section-subtitle">Access your PulsePoint CIS account</p>
+              
+
+                <form id="loginForm" class="login-form">
+                        <div class="form">
+                            <label for="id">Practitioner ID</label>
+                            <input type="text" id="id" name="id" placeholder="Enter your practitioner ID" required>
+                        </div>
+
+                        <div class="form">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                        </div>
+
+                        <div class="form checkbox">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" onclick="handleLogin(event)">Sign In</button>
+                    </form>
+
+                    <div class="form-links">
+                        <p><a href="#" onclick="showSection('forgot')">Forgot Password?</a></p>
+                        <p>Don't have an account? <a href="#" onclick="showSection('signup')">Sign Up</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="info-section">
+                <div class="section-content">
+                    <h2>Nurse PulsePoint CIS</h2>
+                    <p>PulsePoint Clinical Information System is a comprehensive healthcare management platform that is designed to streamline patient care and improve operational efficiency.</p>
+                    <ul>
+                        <li>Patients Alerts: 10,000+</li>
+                        <li>Bed Availability: 5,000+</li>
+                        <li>Medicine Orders: 100,000+</li>
+                        <li>Database Status: Operational</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="service-grid" class="service-grid">
+                <div class="service-card">
+                    <h2>Our Staff</h2>
+                    <p>We have a wide range of our staff.</p>
+                    <ul>
+                        <li>Doctor: 1000+</li>
+                        <li>Nurse: 2000+</li>
+                        <li>Technician: 500+</li>
+                        <li>Administrative Staff: 1500+</li>
+                    </ul>
+                </div>
+
+    
+
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+            <div class="footer-section">
+                <h4>PulsePoint CIS</h4>
+            </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact For More Information</h4>
+                    <p>Email: support@pulsepoint.com</p>
+                    <p>Phone: +1 (555) 650-3509</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PulsePoint CIS. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
